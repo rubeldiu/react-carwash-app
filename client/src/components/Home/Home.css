@@ -1,0 +1,22 @@
+.banner {
+    background-image: url(../../assets/images/banner.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+
+.container-search {
+    color: black;
+}
+
+.container-search input {
+    color: black;
+    z-index: 1 !important;
+
+}
